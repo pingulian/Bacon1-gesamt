@@ -9,6 +9,10 @@ import sys
 x = np.array([1.0, 4.0, 9.0]) #Distance (D)
 y = np.array([1.0, 8.0, 27.0]) #Period(P)
 
+# andere synthetische Werte (für x / y ↑ 3 = c)
+#x = np.array([1, 8, 64])
+#y = np.array([1, 2, 4])
+
 #zufälliger Fehler
 relative_error = 0.01
 random_index = np.random.randint(0, len(y))

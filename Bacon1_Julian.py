@@ -110,7 +110,7 @@ try:
                 c = c + 1
                 print("Zusammenhang", c )
                 b = b + 1 #Exponent von y erhöhen
-                xy = xy / y
+                xy = xy * y
                 average, maxxy, minxy, maxabweichungnumb, abweichung = min_max_abw()
                 antiproportional(average, maxxy, minxy, maxabweichungnumb, abweichung)
 
